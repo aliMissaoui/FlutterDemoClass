@@ -1,16 +1,21 @@
-# test
+# Flutter Demo Class
 
-A new Flutter project.
+## Task Objective
 
-## Getting Started
+We need to build an app with both stateless and stateful widgets.
 
-This project is a starting point for a Flutter application.
+### Challenge 1: Create a Stateless Widget:
 
-A few resources to get you started if this is your first Flutter project:
+Create a static display widget (Text widget showing your name).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Challenge 2: Create a Stateful Widget:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Create a Text widget that contains a number (for example 10).
+2. Build an interactive button widget below the created Text widget. The button should change the state of the number in the above Text widget when pressed and increment it in order to define your age.
+
+### Challenge 3: Makes everythings perfect!
+
+1. Build another interactive button widget below the first one. The button should change the number when pressed and decrement it in order to fix the number if you have incremented it more than you require to define your age.
+2. Prevent the first button from incrementing the number above 65 and the second button from decrementing the number below 10.
+
+
